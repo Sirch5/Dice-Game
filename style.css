@@ -1,0 +1,64 @@
+body{
+    background-color: #040303;
+    font-family: 'Twinkle Star', cursive;
+    color: #fff;
+    text-align: center;
+}
+h1{
+    margin: 0 auto;
+    padding: 5% 3%;
+    width: 60%;
+    font-size: 4rem;
+}
+#roll-btn{
+    color:#fff;
+}
+#bloc1, #bloc2{
+    display: inline;
+}
+.first-dice-pic, .second-dice-pic{
+    padding:3% 4%;
+}
+.btn{
+    margin:1% auto;
+
+    color:#fff;
+}
+.menu-btn{
+    color:#fff;
+}
+.image{
+    width: 15vw;
+    margin: 2%;
+    
+}
+a:visited{
+    color:#fff;
+    text-decoration: none;
+  }
+a:link {
+   text-decoration: none;
+}
+.menu-list{
+    list-style-type:none;
+}
+.test{
+    margin-left: auto;
+}
+.right{
+    float: left;
+}
+.left{
+    float: right;
+}
+.container{
+    margin:2% auto;
+}
+@media (max-width: 575.45px){
+    .right{
+        float: none;
+    }
+    .left{
+        float: none;
+    }
+}
